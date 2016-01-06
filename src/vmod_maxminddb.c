@@ -117,9 +117,3 @@ vmod_query(const struct vrt_ctx *ctx, struct vmod_priv *priv, const struct sucka
 {
 	return vmod_query_country(ctx, priv, ip);
 }
-
-int
-init_function(struct vmod_priv *priv, const struct VCL_conf *conf)
-{
-	return (0);
-}
